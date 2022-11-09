@@ -1,0 +1,145 @@
+.container-lg {
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  padding-right: 5rem;
+  padding-left: 5rem;
+  height: inherit;
+  max-width: 1920px;
+
+  @include respond(big-desktop) {
+    // max-width: 1800px;
+  }
+
+  @include respond(phone) {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+}
+
+.container {
+  margin: 0 auto;
+  overflow: hidden;
+  height: 100%;
+
+  max-width: 1344px;
+
+  @include respond(big-desktop) {
+    max-width: 1344px;
+  }
+
+  @include respond(laptop) {
+    max-width: 1140px;
+  }
+}
+
+.d-flex {
+  @include display-flex;
+}
+
+.d-flex-col {
+  @include d-flex-column;
+}
+
+.d-flex-align {
+  display: flex;
+  align-items: center;
+}
+
+.d-flex-justify-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.d-flex-space {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center-column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.d-flex-align-end {
+  display: flex;
+  align-items: flex-end;
+}
+
+.b-radius {
+  &-3 {
+    border-radius: 3rem;
+  }
+
+  &-2 {
+    border-radius: 2rem;
+  }
+
+  &-1 {
+    border-radius: 1rem;
+  }
+}
+
+.circle {
+  overflow: hidden;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.full-width {
+  width: 100%;
+}
+
+
+
+.list {
+  list-style: none;
+}
+
+input {
+  font-family: 'Yekan', 'sans-serif';
+
+  &::placeholder {
+    font-family: 'Yekan', 'sans-serif';
+  }
+
+  &:focus {
+    outline: none;
+    border: none;
+  }
+
+}
+
+.common-bg {
+  background: linear-gradient(0deg, #F0F5F7, #F0F5F7), linear-gradient(0deg, #F2F8FA, #F2F8FA), #F2F7FA;
+  box-shadow: 0px 10px 10px rgba(245, 245, 245, 0.25);
+  border-radius: 18px;
+  padding: 18px 13px;
+}
+
+.white-bg {
+  background: #FFFFFF;
+  box-shadow: 0px 10px 10px #F0F0F0;
+  border-radius: 14px;
+  color: #00A6A6;
+  font-size: 20px;
+  padding: 5px 26px;
+}
+.outlined-icon{
+  border: 2.5px solid #E4E9EB;
+border-radius: 16px;
+padding: 19px;
+width: 100px;
+
+}

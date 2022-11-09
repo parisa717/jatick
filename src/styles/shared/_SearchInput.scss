@@ -1,0 +1,23 @@
+.SearchInput {
+    width: 544px;
+    .IconBox{
+        position: absolute;
+        top: 16px;
+        right: 16px;
+    }
+    &__input {
+        width: 100%;
+        padding: 33px 93px;
+        background: linear-gradient(0deg, #F0F5F7, #F0F5F7), linear-gradient(0deg, #F2F8FA, #F2F8FA), #F2F7FA;
+        font-size: 1.8rem;
+        color: #8C8E8F;
+        box-shadow: 0px 10px 10px rgba(245, 245, 245, 0.25);
+        border-radius: 18px;
+
+        &::placeholder {
+            font-size: 1.8rem;
+            color: #8C8E8F;
+        }
+
+    }
+}

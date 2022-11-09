@@ -1,0 +1,29 @@
+// -------------------- tailwindcss --------------------
+@import "~tailwindcss/tailwind.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+// -------------------- fonts --------------------
+@import "./base/font";
+
+// -------------------- abstracts --------------------
+@import "./abstracts/variables";
+@import "./abstracts/mixins";
+@import "./abstracts/functions";
+@import "./abstracts/animations";
+
+// -------------------- base --------------------
+@import "./base/base";
+@import "./base/typography";
+@import "./base/utilities";
+
+//--------------------- shared ------------------
+
+@import "./shared/buttons";
+@import "./shared/SearchInput";
+@import "./shared/iconbox";
+
+//--------------------- home --------------------
+
+@import "./components/Home/header";
+@import "./components/Home/specialtips";

@@ -1,0 +1,61 @@
+.button{
+  padding: 17px 38px;
+  border-radius: $br-input;
+  color: $color-white;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  &:focus {
+    border: none;
+    outline: none;
+  }
+  &:disabled{
+    background-color: #EAEAEE;
+    color: #009254;
+
+  }
+ &__primary{
+ background-color:$color-primary;
+ color: #fff;
+ font-weight: 500;
+ box-shadow: 0px 4px 30px rgba(0, 166, 166, 0.2);
+border-radius: 16px;
+ }
+ &__secondary{
+   background-color: #ED6160;
+   padding: 7px 35px;
+   font-size: 1.6rem;
+
+
+ }
+ &__thirdbtn{
+   background-color: #8CC34B;
+   padding: 7px 35px;
+   font-size: 1.6rem;
+ }
+ &__fifthbtn{
+   background-color: #009254;
+   padding: 7px 35px;
+   font-size: 1.6rem;
+ }
+ &__white{
+  background-color: #fff;
+  padding: 7px 35px;
+  font-size: 1.6rem;
+  color: #2F4F4E;
+  box-shadow: 0 0 5px #eaeaeaea;
+ }
+}
+
+.button__outlined{
+  background-color: #F8F8F8;
+  color: #2F4F4E;
+  border: 1px solid #009254;
+  padding: 7px 35px;
+  
+  &:focus {
+    border: none;
+    border: 1px solid #009254;
+  }
+
+}
