@@ -25,7 +25,7 @@ const Filterrow = () => {
     <div className="Filterrow flex ">
    { tagList.map(i=> <div onClick={()=>setTagID(i.id)} className={` cursor-pointer center rounded-[16px] px-[36px] py-[20px] w-[180px] ml-[24px] ${i.id === tagID  ? "bg-[#E9BD22]":"bg-[#EEF3F5]"}`} >
           <div className={`text-[#292D32] text-[16px]`}>
-             {i.title}
+             {i.title}git add 
           </div>
 
       </div>) }
